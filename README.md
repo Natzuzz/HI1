@@ -11925,10 +11925,10 @@ local TestTab = Page:CreateSection({
 				os_clock, starttime = nil
 			end)
 		end
-		return windowFunctions
-	end
-	library.NewWindow = library.CreateWindow
-	library.AddWindow = library.CreateWindow
-	library.Window = library.CreateWindow
-	library.W = library.CreateWindow
-	return library, library_flags, library.subs
+	return windowFunctions
+end
+library.NewWindow = library.CreateWindow
+library.AddWindow = library.CreateWindow
+library.Window = library.CreateWindow
+library.W = library.CreateWindow
+return library, library_flags, library.subs
