@@ -20,10 +20,10 @@ local library = {
 		easingDirection = Enum.EasingDirection.Out
 	},
 	colors = {
-		main = Color3.fromRGB(250, 130, 255),
-		background = Color3.fromRGB(15, 0, 20),
+		main = Color3.fromRGB(36,155,72),
+		background = Color3.fromRGB(0,20,11),
 		outerBorder = Color3.fromRGB(15, 15, 15),
-		innerBorder = Color3.fromRGB(250, 90, 250),
+		innerBorder = Color3.fromRGB(45,195,91),
 		topGradient = Color3.fromRGB(35, 35, 35),
 		bottomGradient = Color3.fromRGB(29, 29, 29),
 		sectionBackground = Color3.fromRGB(25, 0, 30),
