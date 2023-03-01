@@ -5953,3 +5953,66 @@ library.Window = library.CreateWindow
 library.W = library.CreateWindow
 
 local Wait = library.subs.Wait
+
+-- [ Gui Variables ] --
+
+-- local NaoHub = library:CreateWindow({Name = 'Nao Hub', Theme = {Image = "rbxassetid://7483871523", Info = "Info", Background = {Asset = "rbxassetid://5553946656"}}})
+
+-- local Account = NaoHub:CreateTab({Name = "Account"})
+-- local General = NaoHub:CreateTab({Name = "General"})
+-- local Shops = NaoHub:CreateTab({Name = "Shop"})
+-- local Items = NaoHub:CreateTab({Name = "Items"})
+-- local Visuals = NaoHub:CreateTab({Name = "Visuals"})
+
+-- local Info = Account:CreateSection({Name = "Information", Side = "left"})
+-- local ServerInfo = Account:CreateSection({Name = "Server Info", Side = "left"})
+-- local InternetInfo = Account:CreateSection({Name = "Internet Info", Side = "left"})
+-- local Meleev2 = Account:CreateSection({Name = "Melee V2", Side = "left"})
+-- local Sword1 = Account:CreateSection({Name = "Sword", Side = "right"})
+-- local Quest = Account:CreateSection({Name = "Quest", Side = "right"})
+-- local SettingsAcc = Account:CreateSection({Name = "Settings", Side = 'right'})
+
+-- local Main = General:CreateSection({Name = "Main", Side = "left"})
+-- local Boss = General:CreateSection({Name = "Boss", Side = "left"})
+-- local FarmPlayer = General:CreateSection({Name = "Farm Player", "left"})
+-- local Mastery = General:CreateSection({Name = "Mastery", Side = "left"})
+-- local Other = General:CreateSection({Name = "Other", Side = "left"})
+-- local Settings = General:CreateSection({Name = "Settings", Side = "right"})
+-- local Stats = General:CreateSection({Name = "Stats", Side = "right"})
+-- local Code = General:CreateSection({Name = "Code Setting", Side = "right"})
+
+-- local FightStyle1 = Shops:CreateSection({Name = "Fighting Style 1", Side = "left"})
+-- local FightStyle2 = Shops:CreateSection({Name = "Fighting Style 2", Side = "left"})
+-- local ShopAbility = Shops:CreateSection({Name = "Ability", Side = "left"})
+-- local ShopAccessory = Shops:CreateSection({Name = "Accessory", Side = "left"})
+-- local ShopSword = Shops:CreateSection({Name = "Sword", Side = "right"})
+-- local ShopGun = Shops:CreateSection({Name = "Gun", Side = "right"})
+
+-- local AutoCombat = Items:CreateSection({Name = "Combat", Side = "left"})
+-- local EliteHunter = Items:CreateSection({Name = "Elite Hunter", Side = "left"})
+-- local Bone = Items:CreateSection({Name = "Bone", Side = "left"})
+-- local CakePrince = Items:CreateSection({Name = "Cake Prince", Side = "left"})
+-- local LegendarySword = Items:CreateSection({Name = "Legendary Sword", Side = "left"})
+-- local AutoRengoku = Items:CreateSection({Name = "Rengoku", Side = "left"})
+-- local AutoCanvander = Items:CreateSection({Name = "Canvander", Side = "left"})
+-- local AutoBuddy = Items:CreateSection({Name = "Buddy", Side = "left"})
+-- local Fruit = Items:CreateSection({Name = "Fruits", Side = "right"})
+-- local Haki = Items:CreateSection({Name = "Haki", Side = "right"})
+-- local AutoSaber = Items:CreateSection({Name = "Saber", Side = "right"})
+-- local AutoPole = Items:CreateSection({Name = "Pole", Side = "right"})
+-- local AutoCheat = Items:CreateSection({Name = "Cheat", Side = "right"})
+
+-- local MapTP = Visuals:CreateSection({Name = "Map Teleport", Side = 'left'})
+-- local IslandTP = Visuals:CreateSection({Name = "Island Teleport", Side = 'left'})
+-- local Player = Visuals:CreateSection({Name = "Players", Side = 'left'})
+-- local Team = Visuals:CreateSection({Name = "Join Team", Side = 'left'})
+-- local ESP = Visuals:CreateSection({Name = "ESP", Side = 'left'})
+-- local GameUi = Visuals:CreateSection({Name = "Game Ui", Side = 'left'})
+-- local Dungeon = Visuals:CreateSection({Name = "Dungeon", Side = 'right'})
+-- local Server = Visuals:CreateSection({Name = "Server", Side = 'right'})
+-- local OtherVis = Visuals:CreateSection({Name = "Other", Side = 'right'})
+-- local Misc = Visuals:CreateSection({Name = "Misc", Side = 'right'})
+
+-- -- [ End ] --
+
+-- return library, library_flags, library.subs
