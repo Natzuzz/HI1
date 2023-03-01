@@ -5951,6 +5951,5 @@ library.NewWindow = library.CreateWindow
 library.AddWindow = library.CreateWindow
 library.Window = library.CreateWindow
 library.W = library.CreateWindow
-
-local Wait = library.subs.Wait
+return library, library_flags, library.subs
 
